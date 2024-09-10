@@ -42,3 +42,13 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+#ref:hover {
+    background-color: blue;
+}
+
+img {
+    height: 30%;
+    width: 30%;
+    ;
+}
