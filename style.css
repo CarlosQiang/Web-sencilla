@@ -28,6 +28,11 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
 main {
     padding: 20px;
     text-align: center;
@@ -43,6 +48,12 @@ footer {
     bottom: 0;
 }
 
+
+footer div a {
+    text-decoration: none;
+    color: white;
+}
+
 #ref:hover {
     background-color: blue;
 }
@@ -50,5 +61,5 @@ footer {
 img {
     height: 30%;
     width: 30%;
-    ;
 }
+
