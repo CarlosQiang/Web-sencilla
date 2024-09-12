@@ -10,7 +10,10 @@ header {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
-    text-align: center;
+}
+
+img{
+    height: 20px;
 }
 
 nav ul {
@@ -22,6 +25,13 @@ nav ul li {
     display: inline;
     margin: 0 15px;
 }
+nav ul li  :hover {
+    display: inline;
+    margin: 0 15px;
+    size: 50%;
+    background-color: #adadad;
+    border-radius: 5px;
+}
 
 nav ul li a {
     color: #fff;
@@ -30,7 +40,12 @@ nav ul li a {
 
 main {
     padding: 20px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.centrar{
+    display: flex;
+    justify-content: space-around;
 }
 
 footer {
@@ -41,4 +56,16 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+.carousel-inner{
+    height: 50vh;
+}
+.carousel-item{
+    height: 50vh;
+
+}
+
+.carousel-item img{
+    height: 50vh;
+
 }
